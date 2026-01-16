@@ -1,6 +1,6 @@
-site_name: EGR 314 Data Sheet Template
-site_url: https://embedded-systems-design.github.io/EGR314DataSheetTemplate
-repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
+site_name: EGR 314 - Seth Merwin Datasheet
+site_url: https://samerwin1.github.io/EGR314/
+repo_url: https://github.com/samerwin1/EGR314
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 team-name-here"
+copyright: "Copyright &copy; 2026 Seth Merwin"
 
 extra:
   generator: false
