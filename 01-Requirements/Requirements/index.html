@@ -26,7 +26,7 @@
 
     
       
-        <title>Module's Requirements - EGR 314 - Seth Merwin Datasheet</title>
+        <title>Distance-Sensing Module's Requirements - EGR 314 - Seth Merwin Datasheet</title>
       
     
     
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Module's Requirements
+              Distance-Sensing Module's Requirements
             
           </span>
         </div>
@@ -471,7 +471,7 @@
           
   
   <span class="md-ellipsis">
-    Module's Requirements
+    Distance-Sensing Module's Requirements
   </span>
   
 
@@ -482,7 +482,7 @@
         
   
   <span class="md-ellipsis">
-    Module's Requirements
+    Distance-Sensing Module's Requirements
   </span>
   
 
@@ -822,10 +822,10 @@
   
 
 
-  <h1>Module's Requirements</h1>
+  <h1>Distance-Sensing Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>This page documents the requirements that the distance-sensing subsystem must fulfill in order to achieve its goals relating to the greater project. Each entry in the table below describes one requirement, the minimum measurement threshold that must be met, the target measurement for success, and whether it is a stretch requirement(goes beyond realistic limits; not necessary for success) or not.</p>
 <table>
 <thead>
 <tr>
@@ -837,7 +837,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
+<td>Surface mounted, 3.3V switching power regulator</td>
 <td>3.2 Volts</td>
 <td>3.3 Volts</td>
 <td style="text-align: center;">No</td>
@@ -849,16 +849,34 @@
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
-<td style="text-align: center;">Yes</td>
+<td>Serial sensor</td>
+<td>Capable of quick and accurate distance sensing</td>
+<td>LiDAR ToF sensor</td>
+<td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>Able to determine distance from device to object in its path</td>
+<td>10 ft range</td>
+<td>20 ft range</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Wired communication</td>
+<td>Able to send distance data to another subsystem</td>
+<td>Send distance data to subsystem A2 through serial communication (UART)</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Sufficient refresh rate</td>
+<td>Read/send out distance values at 1Hz</td>
+<td>Read/send out distance values &gt;10Hz</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Multi-directional</td>
+<td>Able to read distance in more than 1 direction relative to device orientation</td>
+<td>360-degree distance sensing on horizontal axis</td>
+<td style="text-align: center;">Yes</td>
 </tr>
 </tbody>
 </table>
