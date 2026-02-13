@@ -34,5 +34,8 @@ To review the details listed of the material used to construct the subsection, y
 
 ### Directory
 
-* To view the requirements that built the foundation of the subsystem, visit the ["Requirements" page](https://samerwin1.github.io/Merwin_EGR314_S26/01-Requirements/Requirements/).
-* To understand the physical components of the subsystem and how they are connected, visit the ["Block Diagram" page](https://samerwin1.github.io/Merwin_EGR314_S26/02-Block-Diagram/Block-Diagram/).
+* To view the requirements that built the foundation of the module, visit the ["Requirements" page](https://samerwin1.github.io/Merwin_EGR314_S26/01-Requirements/Requirements/).
+* To understand the physical components of the module and how they are connected, visit the ["Block Diagram" page](https://samerwin1.github.io/Merwin_EGR314_S26/02-Block-Diagram/Block-Diagram/).
+* To view the chosen major hardware components of the module, visit the ["Component Selection" page](https://samerwin1.github.io/Merwin_EGR314_S26/03-Component-Selection/Component-Selection/).
+* To see a breakdown of specifications for the module's microcontroller and why it was chosen, visit the ["Microcontroller Selection" page](https://samerwin1.github.io/Merwin_EGR314_S26/04-Microcontroller-Selection/Microcontroller-Selection/).
+* To understand how power is supplied and disributed throughout the module, visit the ["Power Budget" page](https://samerwin1.github.io/Merwin_EGR314_S26/05-Power-Budget/Power-Budget/).
