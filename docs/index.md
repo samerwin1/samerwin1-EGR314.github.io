@@ -39,3 +39,4 @@ To review the details listed of the material used to construct the subsection, y
 * To view the chosen major hardware components of the module, visit the ["Component Selection" page](https://samerwin1.github.io/Merwin_EGR314_S26/03-Component-Selection/Component-Selection/).
 * To see a breakdown of specifications for the module's microcontroller and why it was chosen, visit the ["Microcontroller Selection" page](https://samerwin1.github.io/Merwin_EGR314_S26/04-Microcontroller-Selection/Microcontroller-Selection/).
 * To understand how power is supplied and disributed throughout the module, visit the ["Power Budget" page](https://samerwin1.github.io/Merwin_EGR314_S26/05-Power-Budget/Power-Budget/).
+* To see a detailed schematic of the electrical connections/circuitry for the subsystem, visit the ["Schematic" page](https://samerwin1.github.io/Merwin_EGR314_S26/07-Schematic/schematic/).
