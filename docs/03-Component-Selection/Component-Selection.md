@@ -12,6 +12,8 @@ The following sections are the selected major components necessary for providing
 
 ![](LM2596S-3.3(Regulator).png)
 
+(A 5V regulator will also be needed to supply power to the LiDAR sensor. The above selection is also offered as a 5V output package. For the sake of simplicity and consistency, this will be used rather than making another comparison table.)
+
 ### Sensor
 
 **TFLuna I2C LiDAR Module:** This ToF single-point LiDAR sensor will provide the product with the capability to measure the distance to objects in its path.
